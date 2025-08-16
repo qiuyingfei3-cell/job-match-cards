@@ -38,28 +38,6 @@ const Index = () => {
           onJobSuperLiked={handleJobSuperLiked}
         />
       </div>
-
-      {/* Bottom Navigation */}
-      <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-100 px-4 py-2">
-        <div className="flex justify-around items-center max-w-md mx-auto">
-          <div className="flex flex-col items-center py-2">
-            <div className="w-6 h-6 bg-green-500 rounded mb-1"></div>
-            <span className="text-xs text-green-500 font-medium">Feed</span>
-          </div>
-          <div className="flex flex-col items-center py-2">
-            <div className="w-6 h-6 bg-gray-300 rounded mb-1"></div>
-            <span className="text-xs text-gray-400">Applications</span>
-          </div>
-          <div className="flex flex-col items-center py-2">
-            <div className="w-6 h-6 bg-gray-300 rounded mb-1"></div>
-            <span className="text-xs text-gray-400">Feedback</span>
-          </div>
-          <div className="flex flex-col items-center py-2">
-            <div className="w-6 h-6 bg-gray-300 rounded mb-1"></div>
-            <span className="text-xs text-gray-400">Profile</span>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
