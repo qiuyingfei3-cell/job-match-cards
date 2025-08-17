@@ -7,7 +7,7 @@ const Profile = () => {
       {/* Header */}
       <div className="sticky top-0 z-10 bg-white border-b border-gray-100 py-4">
         <div className="container mx-auto px-4 flex justify-between items-center">
-          <h1 className="text-xl font-bold text-gray-900">Sorce Resume</h1>
+          <h1 className="text-xl font-bold text-gray-900">GoJob Resume</h1>
           <Settings className="h-6 w-6 text-gray-400" />
         </div>
       </div>

@@ -8,7 +8,7 @@ const Feedback = () => {
       {/* Header */}
       <div className="sticky top-0 z-10 bg-white border-b border-gray-100 py-4">
         <div className="container mx-auto px-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-center text-green-500 flex-1">Sorce</h1>
+          <h1 className="text-2xl font-bold text-center text-green-500 flex-1">GoJob</h1>
           <Phone className="h-6 w-6 text-green-500" />
         </div>
       </div>
@@ -16,7 +16,7 @@ const Feedback = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-md mx-auto">
           <h2 className="text-xl font-medium text-gray-900 mb-8 text-center">
-            Tell us what you love or hate about Sorce. This goes directly to the founders.
+            Tell us what you love or hate about GoJob. This goes directly to the founders.
           </h2>
 
           <div className="bg-white rounded-2xl border border-gray-100 mb-6">
