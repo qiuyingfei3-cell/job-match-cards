@@ -8,8 +8,8 @@ const Feedback = () => {
       {/* Header */}
       <div className="sticky top-0 z-10 bg-white border-b border-gray-100 py-4">
         <div className="container mx-auto px-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-center text-green-500 flex-1">GoJob</h1>
-          <Phone className="h-6 w-6 text-green-500" />
+          <h1 className="text-2xl font-bold text-center text-primary flex-1">GoJob</h1>
+          <Phone className="h-6 w-6 text-primary" />
         </div>
       </div>
 
@@ -26,7 +26,7 @@ const Feedback = () => {
             />
           </div>
 
-          <Button className="w-full bg-green-500 hover:bg-green-600 text-white py-4 rounded-2xl text-lg font-medium">
+          <Button className="w-full bg-primary hover:bg-primary-dark text-primary-foreground py-4 rounded-2xl text-lg font-medium">
             SEND
           </Button>
         </div>

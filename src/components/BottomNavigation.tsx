@@ -22,12 +22,12 @@ const BottomNavigation = () => {
           >
             <div 
               className={`w-6 h-6 rounded mb-1 ${
-                tab.active ? "bg-green-500" : "bg-gray-300"
+                tab.active ? "bg-primary" : "bg-gray-300"
               }`}
             ></div>
             <span 
               className={`text-xs font-medium ${
-                tab.active ? "text-green-500" : "text-gray-400"
+                tab.active ? "text-primary" : "text-gray-400"
               }`}
             >
               {tab.label}

@@ -7,15 +7,15 @@ const Applications = () => {
       {/* Header */}
       <div className="sticky top-0 z-10 bg-white border-b border-gray-100 py-4">
         <div className="container mx-auto px-4">
-          <h1 className="text-2xl font-bold text-center text-green-500">GoJob</h1>
+          <h1 className="text-2xl font-bold text-center text-primary">GoJob</h1>
         </div>
       </div>
 
       <div className="container mx-auto px-4 py-8">
         {/* Resume Upload Section */}
         <div className="text-center mb-12">
-          <div className="w-24 h-24 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-            <FileText className="h-12 w-12 text-green-500" />
+          <div className="w-24 h-24 bg-accent-blue rounded-full flex items-center justify-center mx-auto mb-6">
+            <FileText className="h-12 w-12 text-primary" />
           </div>
           
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Add Your Resume</h2>
@@ -23,7 +23,7 @@ const Applications = () => {
             Upload your main resume to activate job applications and track your progress.
           </p>
           
-          <Button className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full text-lg font-medium">
+          <Button className="bg-primary hover:bg-primary-dark text-primary-foreground px-8 py-3 rounded-full text-lg font-medium">
             <Upload className="h-5 w-5 mr-2" />
             Upload Resume
           </Button>

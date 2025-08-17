@@ -17,7 +17,7 @@ const Profile = () => {
         <div className="bg-white rounded-2xl p-4 mb-6 border border-gray-100">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center">
+              <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
                 <span className="text-white font-bold">⚡</span>
               </div>
               <div>
@@ -44,7 +44,7 @@ const Profile = () => {
                   <path
                     d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
                     fill="none"
-                    stroke="#10b981"
+                    stroke="#3b82f6"
                     strokeWidth="3"
                     strokeDasharray="43, 100"
                   />
@@ -58,7 +58,7 @@ const Profile = () => {
                 <p className="text-gray-500">Auto-fill more job application fields</p>
               </div>
             </div>
-            <Button className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-xl">
+            <Button className="bg-primary hover:bg-primary-dark text-primary-foreground px-6 py-2 rounded-xl">
               Finish
             </Button>
           </div>
@@ -66,7 +66,7 @@ const Profile = () => {
 
         {/* Tabs */}
         <div className="flex space-x-8 mb-8 border-b border-gray-200">
-          <button className="pb-3 text-green-500 border-b-2 border-green-500 font-medium">
+          <button className="pb-3 text-primary border-b-2 border-primary font-medium">
             Resume
           </button>
           <button className="pb-3 text-gray-400">Personal</button>

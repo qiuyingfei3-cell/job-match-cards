@@ -25,7 +25,7 @@ const Index = () => {
       {/* Header */}
       <div className="sticky top-0 z-10 bg-white border-b border-gray-100 py-4">
         <div className="container mx-auto px-4">
-          <h1 className="text-2xl font-bold text-center text-green-500">GoJob</h1>
+          <h1 className="text-2xl font-bold text-center text-primary">GoJob</h1>
         </div>
       </div>
       
